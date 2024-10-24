@@ -6,17 +6,12 @@
     <title>Login</title>
     <style>
  body {
-        font-family: Arial, sans-serif;
-        background-color: #f9f9f9;
-        margin: 0;
-        padding: 0;
         text-align: center;
     }
 
     form {
         display: inline-block;
         text-align: left;
-        background-color: #fff;
         padding: 15px;
         border: 1px solid #ddd;
         border-radius: 5px;
@@ -26,7 +21,6 @@
     label {
         margin-top: 10px;
         display: block;
-        color: #555;
     }
 
     input[type="email"],
@@ -46,12 +40,8 @@
         color: white;
         border: none;
         border-radius: 3px;
-        cursor: pointer;
     }
 
-    input[type="submit"]:hover {
-        background-color: #45a049;
-    }
     </style>
 </head>
 

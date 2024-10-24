@@ -13,10 +13,6 @@ if (!isset($_SESSION["usuario_logado"])) {
     <title>Página Privada</title>
     <style>
  body {
-        font-family: Arial, sans-serif;
-        background-color: #f9f9f9;
-        margin: 0;
-        padding: 0;
         text-align: center;
     }
 
@@ -27,11 +23,6 @@ if (!isset($_SESSION["usuario_logado"])) {
         color: white;
         border: none;
         border-radius: 3px;
-        cursor: pointer;
-    }
-
-    input[type="submit"]:hover {
-        background-color: #45a049;
     }
     </style>
 </head>

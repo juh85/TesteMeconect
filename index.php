@@ -6,21 +6,12 @@
     <title>Teste Meconect</title>
     <style>
     body {
-        font-family: Arial, sans-serif;
-        background-color: #f9f9f9;
-        margin: 0;
-        padding: 0;
         text-align: center;
-    }
-
-    h2 {
-        color: #333;
     }
 
     form {
         display: inline-block;
-        text-align: left;
-        background-color: #fff;
+        text-align: left; 
         padding: 15px;
         border: 1px solid #ddd;
         border-radius: 5px;
@@ -30,9 +21,7 @@
     label {
         margin-top: 10px;
         display: block;
-        color: #555;
     }
-
     input[type="text"],
     input[type="email"],
     input[type="password"] {
@@ -51,13 +40,7 @@
         color: white;
         border: none;
         border-radius: 3px;
-        cursor: pointer;
     }
-
-    input[type="submit"]:hover {
-        background-color: #45a049;
-    }
-
     .navbar {
         overflow: hidden;
         display: flex;
@@ -76,13 +59,9 @@
         color: white;
         border: none;
         padding: 10px 20px;
-        cursor: pointer;
         border-radius: 5px;
     }
 
-    .login-button:hover {
-        background-color: #45a049;
-    }
     </style>
 </head>
 
